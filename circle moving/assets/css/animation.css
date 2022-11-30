@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+}
+.divi1{
+height: 100px;
+width: 100px;
+border-radius: 50%;
+background-image: url('../images/myphoto.jpg.jpeg');
+background-size: contain;
+background-position: center;
+position: absolute;
+animation-name: Gaurav;
+animation-delay: 2s;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+
+
+
+@keyframes Gaurav{
+    0%{
+        left: 0%;
+        top: 0%;
+    }
+    25%{
+        left: 400px;
+        top: 0;
+        /* background-image: linear-gradient(aqua,darkgreen); */
+
+
+
+    }
+    50%{
+        left: 400px;
+        top: 400px;
+        /* background-image: linear-gradient(aqua,darkgreen); */
+
+
+
+    }
+    75%{
+        left: 0;
+        top: 400px;
+        /* background-image: linear-gradient(aqua,darkgreen); */
+    }
+    100%{
+
+        /* background-image: linear-gradient(aqua,darkgreen); */
+        left: 0;
+        top: 0;
+    }
+
+
+
+
+}
+
+
+
